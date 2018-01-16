@@ -1,0 +1,119 @@
+
+
+#thebigestsquare
+
+{ 
+    width: 1113px;
+    height: 1126px;
+    background-color: white;
+}
+
+#bigsquare{
+
+    width: 980px;
+    height: 1000px;
+    background-color: blue;
+    margin-left: 125px;
+}
+
+
+.line{
+   background-color: grey;
+    width:987px;
+    height:125px; 
+}
+
+#line2{
+    float:left;
+    height: 970px;
+    width:125px;
+   background-color: yellow;
+   margin-top: 1px;
+   
+}
+
+#line3
+{
+   height: 125px;
+    width:988px;
+    background-color: brown;
+    margin-left: 125px;
+}
+
+.smallsquare1
+{
+    border-left: 2px solid #878787;
+     border-right: 2px solid #878787;
+     border-top:2px solid #878787;
+     border-bottom:2px solid #878787;
+    width: 119px;
+    height:119px;
+    background-color: white;
+    float: left;
+
+}
+
+.smallsquare2
+{
+    background-color: #a8a8a8;
+     border-left: 2px solid #878787;
+     border-right: 2px solid #878787;
+     border-top:2px solid #878787;
+     border-bottom:2px solid #878787;
+    width: 119px;
+    height:119px;
+    float: left;
+}
+
+.dude2{
+    width: 119px;
+    height:117px;
+     border-left: 2px solid black;
+     border-right: 2px solid black;
+     border-top:4px solid black;
+     border-bottom:4px solid black;
+     float:left;
+    font-size: 30px;
+     text-align: right;
+     line-height: 200px;    
+    color: White;
+}
+#line3 > .dude2:first-child
+{
+    border-left: 4px solid black;
+    
+}
+#line3 > .dude2:last-child
+{
+    border-right: 4px solid black;
+    
+}
+.dude
+{    
+    width: 117px;
+    height:120px;
+     border-left: 4px solid black;
+     border-right: 4px solid black;
+     border-top:2px solid black;
+     border-bottom:2px solid black;
+    background-color:   #66ffcc;
+     text-align: right;
+     line-height: 200px;
+     font-size: 30px;
+}
+#line2> .dude:first-child
+{
+    border-top:5px solid black;
+     
+}
+#line2> .dude:last-child
+{
+    border-bottom:5px solid black;
+     
+}
+.symbols{
+    font-size: 100px;
+    margin-top: 0px;
+    margin-left: 10px;
+
+}
